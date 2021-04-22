@@ -8,6 +8,7 @@ public class BiomePreset : ScriptableObject
 {
     public Color debugColor;
     public Sprite[] tileSprites;
+    
 
     public float minHeight;
     public float minMoisture;

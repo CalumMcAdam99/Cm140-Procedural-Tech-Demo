@@ -116,7 +116,7 @@ public class Map : MonoBehaviour
 
                         if(Application.isPlaying)
                         {
-
+                            
                             GameObject tile = Instantiate(tilePrefab, new Vector3(x, y, 0), Quaternion.identity);
                             tile.GetComponent<SpriteRenderer>().sprite = biome.GetTileSprite();
                                 tile.GetComponent<BoxCollider2D>();
